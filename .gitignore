@@ -17,3 +17,6 @@ desktop.ini
 *.log
 *.tmp
 ~$*
+
+# Skills 收编暂存区（整理完成后手动迁移至正式目录）
+/incoming/

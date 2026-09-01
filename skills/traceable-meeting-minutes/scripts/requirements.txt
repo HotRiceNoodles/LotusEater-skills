@@ -1,0 +1,11 @@
+# traceable-meeting-minutes — Python 依赖
+# 本地转写(faster-whisper)仅在处理音频文件时需要;纯文本转写稿输入可跳过。
+faster-whisper>=1.0.0
+
+# 云端 ASR(OpenAI 兼容端点)时需要。
+requests>=2.28.0
+
+# 系统依赖(非 pip):ffmpeg / ffprobe
+#   Windows: winget install Gyan.FFmpeg
+#   macOS:   brew install ffmpeg
+#   Linux:   apt install ffmpeg

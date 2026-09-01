@@ -1,0 +1,20 @@
+{
+  "name": "lotuseater-skills",
+  "owner": {
+    "name": "HotRiceNoodles"
+  },
+  "metadata": {
+    "description": "Lotuseater's skill collection — practical, evidence-first agent skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "traceable-meeting-minutes",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/traceable-meeting-minutes"],
+      "description": "Turn a meeting recording or transcript into lossless-evidence, traceable minutes with an interactive HTML where every claim jumps back to the original audio moment, plus an audit of what AI summarization may have dropped.",
+      "category": "workflow"
+    }
+  ]
+}
