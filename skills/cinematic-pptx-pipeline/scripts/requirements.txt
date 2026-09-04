@@ -1,0 +1,16 @@
+# cinematic-pptx-pipeline — Python 依赖
+# PPTX 生成与动画注入（L1/L2/L3 全流程需要）。
+python-pptx>=0.6.21
+
+# 背景预合成（L2 可编辑版：压暗/压亮/渐变烤进底图）与玻璃拟态预模糊。
+Pillow>=10.0.0
+
+# add_animations.py 直接操作 slide XML（lxml，python-pptx 自带依赖，显式声明保险）。
+lxml>=4.9.0
+
+# L4 视频版 Phase B 依赖系统 ffmpeg（非 pip）：
+#   Windows: winget install Gyan.FFmpeg
+#   macOS:   brew install ffmpeg
+#   Linux:   apt install ffmpeg
+# L3/L4 的 COM 备用方案依赖本机 PowerPoint（仅 Windows）；
+# macOS/Linux 上 L3 用 add_animations.py（纯 XML 注入，无需 PowerPoint）。

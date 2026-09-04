@@ -55,6 +55,7 @@ cp -r lotuseater-skills/skills/traceable-meeting-minutes ~/.codex/skills/
 | Skill | What it does |
 |-------|--------------|
 | [traceable-meeting-minutes](skills/traceable-meeting-minutes/) | Meeting recording/transcript → traceable minutes: semantic ledger + differential compression + interactive HTML (every claim jumps back to the original words and audio moment) + a "what was dropped" audit |
+| [cinematic-pptx-pipeline](skills/cinematic-pptx-pipeline/) | Multi-style PPT/courseware pipeline (cinematic / hand-drawn / guochao / glassmorphism): AI illustrations → HTML pages → screenshot QA → PPTX in three tiers (bitmap / editable / animated) → MP4 video |
 
 ## Contribution Spec
 

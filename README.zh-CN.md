@@ -55,6 +55,7 @@ cp -r lotuseater-skills/skills/traceable-meeting-minutes ~/.codex/skills/
 | Skill | 用途 |
 |-------|------|
 | [traceable-meeting-minutes](skills/traceable-meeting-minutes/) | 会议录音/转写稿 → 可回溯纪要：语义账本 + 分级压缩 + 交互式 HTML（每句可跳回原话与录音时刻）+ "丢了什么"审计 |
+| [cinematic-pptx-pipeline](skills/cinematic-pptx-pipeline/) | 多风格 PPT/课件全流水线（电影质感/手绘涂鸦/国潮/玻璃拟态）：AI 插图 → HTML 页面 → 截图 QA → 三级 PPTX 交付（位图/可编辑/动画）→ MP4 视频 |
 
 ## 收录规范
 

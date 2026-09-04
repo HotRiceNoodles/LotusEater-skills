@@ -15,6 +15,14 @@
       "skills": ["./skills/traceable-meeting-minutes"],
       "description": "Turn a meeting recording or transcript into lossless-evidence, traceable minutes with an interactive HTML where every claim jumps back to the original audio moment, plus an audit of what AI summarization may have dropped.",
       "category": "workflow"
+    },
+    {
+      "name": "cinematic-pptx-pipeline",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/cinematic-pptx-pipeline"],
+      "description": "Multi-style PPT/courseware pipeline: cinematic, hand-drawn, guochao (neo-Chinese) or glassmorphism AI illustrations, HTML pages, screenshot QA, then three tiers of PPTX delivery (bitmap / editable / animated) and an MP4 video export.",
+      "category": "workflow"
     }
   ]
 }
