@@ -1,6 +1,6 @@
 # lotuseater-skills
 
-English | [中文](README.zh-CN.md)
+English | [中文](README.zh-CN.md) | [العربية](README.ar.md)
 
 Lotuseater's collection of agent skills. Each skill lives in its own directory under `skills/`, following the structure defined in [docs/skill-spec.md](docs/skill-spec.md) (in Chinese).
 

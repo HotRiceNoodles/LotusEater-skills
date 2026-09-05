@@ -1,6 +1,6 @@
 # lotuseater-skills
 
-[English](README.md) | 中文
+[English](README.md) | 中文 | [العربية](README.ar.md)
 
 Lotuseater 的 agent skills 合集。每个 skill 一个目录，位于 `skills/` 下，结构遵循 [docs/skill-spec.md](docs/skill-spec.md)。
 
